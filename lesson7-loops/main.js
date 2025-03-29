@@ -94,23 +94,120 @@
 //   i++;
 // }
 
-const users = [
-  {
-    name: "Vasya",
-    age: 15,
-  },
-  {
-    name: "Olya",
-    age: 45,
-  },
-  {
-    name: "Petya",
-    age: 25,
-  },
-];
+// const users = [
+//   {
+//     name: "Vasya",
+//     age: 15,
+//   },
+//   {
+//     name: "Olya",
+//     age: 45,
+//   },
+//   {
+//     name: "Petya",
+//     age: 25,
+//   },
+// ];
 
-for (let i = 0; i < users.length; i++) {
-  if (users[i].age > 20) {
-    console.log(users[i].name);
-  }
+// for (let i = 0; i < users.length; i++) {
+//   if (users[i].age > 20) {
+//     console.log(users[i].name);
+//   }
+// }
+
+// const friends = ["Vasya", "Petya", "Olya", "Zhanybek", "Harry", "Zhenya"];
+
+// for (let i = 0; i < friends.length; i++) {
+//   if (i === 3) continue;
+//   console.log(friends[i]);
+// }
+// for (let elem of friends) {
+//   console.log(elem);
+// }
+
+// const object = {
+//   name: "Vasya",
+//   age: 19,
+//   job: "Frontender",
+// };
+
+// const key = "job";
+
+// console.log(object[key]);
+
+//object[name]
+//object[age]
+
+// for (let key in object) {
+//   console.log(key, object.key);
+// }
+
+// const friends = ["Vasya", "Petya", "Olya", "Zhanybek", "Harry", "Zhenya"];
+
+// for (let index in friends) {
+//   console.log(friends[index]);
+// }
+
+// const users = [
+//   {
+//     name: "Vasya",
+//     age: 15,
+//   },
+//   {
+//     name: "Olya",
+//     age: 45,
+//   },
+//   {
+//     name: "Petya",
+//     age: 25,
+//   },
+// ];
+
+// for (let elem of users) {
+//   console.log(elem);
+//   if (elem.age >= 20) {
+//     console.log(elem.name);
+//   }
+// }
+
+// for (let i = 0; i < friends.length; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(friends[i]);
+//   }
+// }
+
+// for (const index in friends) {
+//   if (index % 2 !== 0) {
+//     console.log(friends[index]);
+//   }
+// }
+
+// console.log(window);
+
+// for (let key in window) {
+//   // console.log(key + ": " + window[key]);
+//   console.log(`${key}: ${window[key]}`);
+// }
+
+// const friends = ["Vasya", "Petya", "Olya", "Zhanybek", "Harry", "Zhenya"];
+
+// for (let friend of friends) {
+//   // console.log(`Hello ${friend}`);
+//   console.log("hello " + friend);
+// }
+
+// const object = {
+//   name: "Vasya",
+//   age: 19,
+//   job: "Frontender",
+// };
+
+// for (let key of object) {
+//   console.log(key);
+// }
+let arr = [];
+for (let i = 0; i < 5; i++) {
+  const answer = prompt("what lesson?");
+  arr.push(answer);
+  console.log(arr);
 }
